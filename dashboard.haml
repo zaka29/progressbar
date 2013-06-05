@@ -1,0 +1,13 @@
+#dashboard
+  .complete
+    %h3     
+      %span#percentage
+
+    #progressBar
+      %div.bar.company{"data-percentage" => 0, "data-step" => "Create company"}
+      %div.bar.task{"data-percentage" => 0, "data-step" => "Create task"}
+      %div.bar.project{"data-percentage" => 20, "data-step" => "Create project"}
+      %div.bar.invoice{"data-percentage" => 20, "data-step" => "Create invoice"}
+      %div.bar.invite{"data-percentage" => 20, "data-step" => "Invite user"}
+
+    #scaleLine
